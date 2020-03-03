@@ -1,25 +1,21 @@
-.tcb-bs-fullscreen{
-    height: 100%;
-}
-.carousel,
-    .item,
-    .active {
-        height: 100%;
-    }
-    .carousel-inner {
-        height: 100%;
-    }
-}
+/****************************
+TURN BOOTSTRAP CAROUSEL INTO FULL SCREEN SLIDER
+*****************************/
+
+
 /****************************
 USE BACKGROUND IMAGES IN CAROUSEL SLIDER
 *****************************/
-.carousel-bg,
-    .carousel-inner {
-        .item {
-            background-color: darkslategrey;
-            background-size: cover;
-            background-position: center;
-            min-height: 360px;
-        }
-    }
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+.background_slide{
+  background-image: url('image/re.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  /* width: 100%; */
+    /* background-image: linear-gradient(red, yellow, blue); */
 }
