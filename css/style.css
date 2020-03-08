@@ -179,13 +179,12 @@ div.card-body {
 	float:left;
 	position: relative;
 }
-nav.navbar navbar-expand-lg navbar-light bg-light {
+/* nav.navbar navbar-expand-lg navbar-light bg-light {
 
-}
+} */
 div.news {
 	width:100%;
 	height: 200px;
-
 	border:1px solid white;
 }
 
